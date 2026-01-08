@@ -4,13 +4,15 @@ Official website for Ardent Heart Games - home of the Ardent Heart Editor.
 
 ## About
 
-This is a static site built with Jekyll and hosted on GitHub Pages. It provides information about the Ardent Heart Editor, a game editor built on the Unicorn Game Engine with PixiJS and ThreeJS support.
+This is a static site built with Jekyll and hosted on GitHub Pages. It provides information about the Ardent Heart Editor, a lightweight, feature-rich game editor built with Electron and Vue.js for creating games in TypeScript and PixiJS (with ThreeJS support coming soon).
+
+The editor will be exclusively available on Steam starting with the Early Access launch in Q1 2026.
 
 ## Site Structure
 
 - **index.md** - Homepage with overview
-- **about.md** - Detailed information about the editor and engine
-- **features.md** - Comprehensive feature list
+- **about.md** - Detailed information about the editor, technology stack, and requirements
+- **features.md** - Comprehensive feature list and current components
 - **roadmap.md** - Development roadmap and milestones
 - **updates.md** - Project updates and status
 

@@ -18,143 +18,130 @@ Discover what the Ardent Heart Editor can do for your game development workflow.
 - **Layering system** for organizing scene elements
 - **Zoom and pan controls** for navigation of large scenes
 
+### In-Editor Game Runtime View
+
+- **Instant testing** - Play your game directly within the editor
+- **Real-time updates** - See changes immediately without rebuilding
+- **Debugging view** - Console output and performance monitoring
+- **Quick iteration** - Rapid test-modify-test workflow
+
 ### Asset Management
 
 - **Centralized asset browser** with search and filtering
 - **Asset preview** for quick identification
 - **Import support** for common image, audio, and data formats
 - **Asset organization** with folders and tags
-- **Automatic asset optimization** for web deployment
 
 ### Script Editor
 
-- **Syntax highlighting** for JavaScript/TypeScript
-- **Code completion** and IntelliSense support
-- **Integrated documentation** with hover tooltips
+- **TypeScript support** with full type checking
+- **Syntax highlighting** and code completion
 - **Error detection** and linting
 - **Script attachment** to game objects and components
 
 ### Inspector Panel
 
 - **Property editing** for game objects and components
-- **Real-time updates** reflected immediately in the preview
+- **Real-time updates** reflected immediately in the game view
 - **Custom property types** including colors, vectors, and enums
 - **Component management** - add, remove, and configure components
 
-### Preview System
+## Current Components
 
-- **Real-time preview** of your game within the editor
-- **Play/pause/step controls** for testing and debugging
-- **Console output** for debugging messages and errors
-- **Performance metrics** display
+The editor currently includes these built-in components:
 
-## Unicorn Game Engine Features
+### Visual Components
+- **Sprites** - 2D graphics with texture support
+- **Text** - Rendered text with font and styling options
+- **Animations** - Sprite animations and property tweening
 
-### Entity-Component-System (ECS)
+### Interactive Components
+- **Buttons** - Clickable UI elements with event handling
 
-- **Flexible entity composition** using reusable components
-- **System-based logic** for clean separation of concerns
-- **Component pooling** for performance optimization
-- **Entity queries** for efficient entity management
+### Structure Components
+- **Prefabs** - Reusable game object templates
+- **Scenes** - Multiple scene support with transitions
 
-### Scene Management
+### Logic Components
+- **Scripting** - TypeScript-based game logic and behaviors
 
-- **Multiple scene support** with easy switching
-- **Scene loading and unloading** with transition effects
-- **Persistent data** across scene changes
-- **Scene serialization** for saving and loading
+### Audio Components
+- **Audio** - Sound effects and music playback via Howler.js integration
+- **Multi-channel playback** with volume and pitch control
 
-### Physics
-
-- **2D physics simulation** with collision detection
+### Physics Components
+- **Physics Bodies** - 2D physics simulation via Matter.js integration
+- **Collision detection** and response
 - **Rigid body dynamics** with mass and velocity
-- **Collision layers and masks** for selective interactions
-- **Trigger volumes** for non-physical interactions
-- **Configurable physics properties** per object
 
-### Input System
+## Build & Export
 
-- **Keyboard input** with key mapping
-- **Mouse/touch input** with pointer events
-- **Gamepad support** for controller input
-- **Input abstraction** for cross-platform compatibility
-- **Action mapping** system for flexible control schemes
+### Build Targets
 
-### Audio
+Export your games to multiple platforms:
 
-- **Multi-channel audio playback**
-- **Spatial audio** with 3D positioning (in development)
-- **Volume and pitch control**
-- **Audio sprites** for efficient sound management
-- **Background music** with looping and crossfade
+- **Web** - HTML5 games that run in any browser
+- **Electron** - Cross-platform desktop applications (Windows, macOS, Linux)
+- **Tauri** - Lightweight, secure desktop builds using Rust
 
-## PixiJS Integration Features
-
-### 2D Rendering
-
-- **Hardware-accelerated WebGL rendering**
-- **Sprite rendering** with batching for performance
-- **Texture atlases** for efficient texture management
-- **Animated sprites** with spritesheet support
-- **Blend modes** for visual effects
-
-### Graphics and Effects
-
-- **Vector graphics** drawing API
-- **Particle systems** for effects like fire, smoke, and explosions
-- **Filters and shaders** for post-processing effects
-- **Masking and clipping** for complex visual compositions
-- **Text rendering** with custom fonts and styling
-
-## ThreeJS Integration (Coming Soon)
-
-### 3D Rendering
-
-- **WebGL 3D rendering** for immersive experiences
-- **3D model import** (GLTF, FBX, OBJ formats)
-- **PBR materials** for realistic surfaces
-- **Skeletal animation** for character movement
-- **Morph targets** for facial animation
-
-### 3D Scene Features
-
-- **Advanced lighting** (directional, point, spot, ambient)
-- **Shadow casting and receiving**
-- **Skybox and environment maps**
-- **Camera controls** (orbit, fly, first-person)
-- **3D physics integration**
-
-## Export and Deployment
-
-### Build System
+### Build Features
 
 - **Optimized builds** with minification and tree-shaking
 - **Asset bundling** for efficient loading
-- **Multiple target platforms** (web, desktop - planned)
 - **Development and production modes**
+- **TypeScript compilation** with type checking
 
-### Deployment Options
+## Plugin System
 
-- **Web hosting** - deploy anywhere HTML5 is supported
-- **Progressive Web App (PWA)** support
-- **Desktop builds** via Electron (planned)
-- **Mobile packaging** (planned)
+### Plugin Installation
 
-## Workflow Features
+- **Git Repository Plugins** - Install plugins directly from Git URLs
+- **Steam Workshop** - Browse and install community plugins (primary platform)
+- **Steam DLC** - Official plugin releases and expansion packs
 
-### Project Management
+### Plugin Capabilities
 
-- **Project-based organization** with workspace settings
-- **Version control integration** (Git)
-- **Project templates** for quick starts
-- **Recent projects** list for easy access
+- **Custom components** - Add new component types
+- **Editor extensions** - Extend the editor's functionality
+- **Workflow tools** - Automate common tasks
+- **Asset processors** - Custom import and optimization pipelines
 
-### Collaboration
+## Planned Features (Roadmap)
 
-- **Shareable project format**
-- **JSON-based scene files** for version control compatibility
-- **External editor support** for scripts and assets
-- **Documentation export** for project handoff
+### Visual Editors (Coming Soon)
+
+- **Animation Editor** - Visual timeline-based animation creation
+- **Visual Scripting** - Node-based scripting system for non-programmers
+- **Particle System Editor** - Visual particle effect designer
+
+### 3D Support (In Development)
+
+- **ThreeJS Integration** - 3D rendering alongside 2D content
+- **3D Model Import** - Support for GLTF, FBX, and OBJ formats
+- **3D Scene Editor** - Tools for positioning and manipulating 3D objects
+- **Lighting & Materials** - PBR materials and advanced lighting
+
+### AI-Assisted Development (Planned)
+
+- **Local LLM Integration** - Use local AI models for development assistance
+- **EditorAPI Interaction** - AI can perform common editor tasks
+- **Smart Suggestions** - Context-aware code and design recommendations
+- **Workflow Automation** - AI-powered task automation
+
+## Requirements
+
+To use the Ardent Heart Editor:
+
+- **pnpm** - Package manager (required for project dependencies)
+- **Rust** - Required for Tauri platform builds (optional if only targeting Web/Electron)
+
+## Platform
+
+The Ardent Heart Editor will be exclusively available on **Steam**:
+
+- **Early Access**: Q1 2026 (could be sooner)
+- **Before Early Access**: Invite-only access for early adopters
+- **Distribution**: Steam exclusive from Early Access launch
 
 ---
 

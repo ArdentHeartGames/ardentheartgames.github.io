@@ -7,25 +7,28 @@ title: Home
 
 ## Ardent Heart Editor
 
-A powerful and intuitive game editor built on the **Unicorn Game Engine**, leveraging the best of modern web technologies including **PixiJS** for 2D rendering and **ThreeJS** for 3D graphics (coming soon).
+A lightweight, feature-rich game editor built with **Electron** and **Vue.js**, enabling developers to create games using **TypeScript** and **PixiJS** for 2D rendering, with **ThreeJS** support for 3D graphics coming soon.
 
 ### What is Ardent Heart Editor?
 
-The Ardent Heart Editor is a comprehensive game development tool designed to empower game developers with:
+The Ardent Heart Editor is a streamlined game development tool that provides:
 
-- **Visual editing capabilities** for game scenes and assets
-- **Real-time preview** of your game as you build it
-- **Integrated asset management** for sprites, sounds, and other resources
-- **Powerful scripting support** for game logic
-- **Cross-platform export** options
+- **Visual scene editor** for building and arranging game elements
+- **In-editor game runtime view** for instant testing and iteration
+- **Integrated asset management** for sprites, audio, and other resources
+- **TypeScript scripting support** for game logic
+- **Multi-platform builds** - export to Electron, Tauri, or Web
 
-### Built on Solid Foundations
+### Built on Modern Technologies
 
-Our editor is powered by:
+Our editor leverages:
 
-- **Unicorn Game Engine** - A robust, flexible game engine core
-- **PixiJS** - Industry-leading 2D WebGL renderer
-- **ThreeJS** (coming soon) - Powerful 3D graphics library for immersive experiences
+- **Electron** - Cross-platform desktop application framework
+- **Vue.js** - Reactive UI framework for the editor interface
+- **PixiJS** - Hardware-accelerated 2D WebGL renderer for games
+- **ThreeJS** (coming soon) - 3D graphics library for immersive experiences
+- **Howler.js** - Wrapped audio engine for sound management
+- **Matter.js** - Wrapped 2D physics engine for realistic interactions
 
 ### Get Started
 

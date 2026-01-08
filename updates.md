@@ -30,36 +30,39 @@ We'll be posting regular updates here as development progresses. Stay tuned!
 
 ## Development Status
 
-### Current Focus: Alpha Development
+### Current Focus: Pre-Early Access Development
 
-We are currently in the **alpha development phase**, working on establishing a solid foundation for the editor. Our primary focus areas include:
+We are currently in **pre-Early Access development**, working on finalizing core features and preparing for our Steam Early Access launch. The editor is functional for 2D game development with TypeScript and PixiJS.
+
+**Early Access Launch**: Q1 2026 (could be sooner)
+**Current Access**: Invite-only for early adopters
 
 #### This Month's Priorities
 
-1. **Core Editor Refinements**
+1. **Core Editor Polish**
    - Improving the scene editor user experience
    - Enhancing selection and manipulation tools
    - Adding undo/redo functionality
 
-2. **Component System Expansion**
-   - Implementing additional built-in components
-   - Creating component templates
-   - Improving component documentation
+2. **Build System Refinement**
+   - Web export optimization
+   - Electron build improvements
+   - Tauri build support and testing
 
-3. **Asset Pipeline**
-   - Streamlining asset import workflows
-   - Adding preview capabilities for more asset types
-   - Implementing asset organization features
+3. **Plugin System Development**
+   - Git repository plugin installation
+   - Steam Workshop integration preparation
+   - Plugin API documentation
 
 #### Next Month's Goals
 
-1. **Physics Integration**
-   - Integrating a 2D physics engine
-   - Creating physics debugging visualization
-   - Building physics component interfaces
+1. **Steam Integration**
+   - Early Access preparation
+   - Workshop setup and testing
+   - Achievement and stats integration
 
 2. **Documentation**
-   - Writing comprehensive API documentation
+   - Writing comprehensive user guides
    - Creating tutorial content
    - Building example projects
 
@@ -71,40 +74,51 @@ We are currently in the **alpha development phase**, working on establishing a s
 
 - [ ] Complete core editor tooling
 - [ ] Implement undo/redo system
-- [ ] Add 2D physics support
-- [ ] Create particle system editor
-- [ ] Publish first example project
-- [ ] Release Alpha 0.1
+- [ ] Finalize plugin system (Git repos + Steam Workshop)
+- [ ] Build system optimization (Web, Electron, Tauri)
+- [ ] Steam integration and Early Access preparation
+- [ ] Documentation and tutorials
+- [ ] **Launch Early Access on Steam**
 
 ### Q2 2026 Goals
 
-- [ ] Enhanced animation system
-- [ ] Visual scripting prototype
-- [ ] UI component library
-- [ ] Audio editing tools
-- [ ] Release Alpha 0.2
+- [ ] Visual animation editor
+- [ ] Visual scripting system
+- [ ] Enhanced UI components
+- [ ] Performance optimization
+- [ ] Community plugin support via Workshop
 
 ---
 
 ## Community and Feedback
 
-We're building this editor with the community in mind. As we progress through development, we'll be looking for:
+We're building this editor with the community in mind. 
 
-- **Beta Testers** - Help us identify bugs and usability issues
-- **Feature Suggestions** - Tell us what features would make your workflow better
-- **Example Projects** - Share what you've built with the editor
-- **Documentation Feedback** - Help us improve our guides and tutorials
+### Before Early Access
 
-### How to Get Involved
+The editor is currently in **invite-only access** as we prepare for the public Early Access launch. This allows us to:
 
-Currently, the project is in early development. As we approach our first alpha release, we'll be opening up opportunities for:
+- Gather focused feedback from early adopters
+- Identify and fix critical issues
+- Polish the user experience
+- Finalize core features
 
-- Early access testing programs
-- Community forums and discussion
-- Feature voting and prioritization
-- Contributing to documentation and examples
+### Early Access & Beyond
 
-Stay tuned for announcements about community involvement opportunities!
+Once we launch on Steam Early Access (Q1 2026, could be sooner), the editor will be:
+
+- **Exclusively available on Steam**
+- Open to the public for purchase and use
+- Actively developed with regular updates
+- Enhanced with **Steam Workshop** for community plugins
+- Expanded with **Steam DLC** for official plugin releases
+
+### How to Get Involved (Post-Early Access)
+
+- **Use the editor** - Create games and share your feedback
+- **Steam Workshop** - Create and share plugins with the community
+- **Community discussion** - Participate in Steam forums and discussions
+- **Feature requests** - Help shape the roadmap with your ideas
 
 ---
 
@@ -131,39 +145,47 @@ Stay tuned for announcements about community involvement opportunities!
 
 ### Feature Highlights to Watch
 
-#### Undo/Redo System
-One of the most requested features during early development. We're working on a comprehensive undo/redo system that will track all editor actions, making it safe to experiment and iterate quickly.
+#### Visual Animation Editor
+Create animations with a visual timeline interface. This will make it easy to animate sprites, properties, and create complex animation sequences without writing code.
 
-#### Physics Integration
-2D physics support is coming soon! This will enable collision detection, rigid body dynamics, and interactive game mechanics.
+#### Visual Scripting System
+For those who prefer visual programming, we're planning a node-based scripting system that will work alongside TypeScript scripting.
 
-#### Particle System Editor
-Create stunning visual effects with our upcoming particle system editor. Design fire, smoke, explosions, and more with an intuitive visual interface.
+#### ThreeJS 3D Support
+Full 3D game development capabilities are coming, allowing you to create immersive 3D experiences or mix 2D and 3D elements in your games.
 
 ---
 
 ## Release Notes
 
-### Pre-Alpha Development
+### Pre-Early Access Development
 
-**Current Status:** Active Development
+**Current Status:** Active Development (Invite-Only)
 
-The Ardent Heart Editor is currently in pre-alpha development. We're building the foundational systems and core editor features. While not yet ready for public release, we're making steady progress toward our first alpha milestone.
+The Ardent Heart Editor is currently in pre-Early Access development, preparing for our Steam Early Access launch in Q1 2026.
 
 **Key Systems Implemented:**
-- Entity-Component-System architecture
-- Scene editor with basic manipulation tools
-- PixiJS rendering integration
+- Electron + Vue.js editor architecture
+- Scene editor with visual manipulation
+- In-editor game runtime view
+- TypeScript scripting support
+- PixiJS rendering integration (2D)
+- Howler.js audio system (wrapped)
+- Matter.js physics engine (wrapped)
 - Asset import and management
-- Script editor with syntax highlighting
-- Real-time preview system
-- Project serialization
+- Project save/load functionality
+
+**Current Components:**
+- Sprites, Text, Buttons
+- Animations, Prefabs, Scenes
+- Scripting, Audio, Physics
 
 **In Progress:**
 - Undo/redo functionality
 - Enhanced scene editing tools
-- Component library expansion
-- Physics integration
+- Plugin system (Git repos + Steam Workshop)
+- Build system optimization (Web, Electron, Tauri)
+- Steam integration
 
 ---
 
