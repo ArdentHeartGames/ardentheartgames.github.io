@@ -1,2 +1,66 @@
 # ardent-heart-games.github.io
-Ardent Heart Games public site
+
+Official website for Ardent Heart Games - home of the Ardent Heart Editor.
+
+## About
+
+This is a static site built with Jekyll and hosted on GitHub Pages. It provides information about the Ardent Heart Editor, a game editor built on the Unicorn Game Engine with PixiJS and ThreeJS support.
+
+## Site Structure
+
+- **index.md** - Homepage with overview
+- **about.md** - Detailed information about the editor and engine
+- **features.md** - Comprehensive feature list
+- **roadmap.md** - Development roadmap and milestones
+- **updates.md** - Project updates and status
+
+## Local Development
+
+### Prerequisites
+
+- Ruby 3.x
+- Bundler
+
+### Setup
+
+1. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+2. Build the site:
+   ```bash
+   bundle exec jekyll build
+   ```
+
+3. Serve the site locally:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Visit `http://localhost:4000` in your browser
+
+### Configuration
+
+The site configuration is in `_config.yml`. Key settings include:
+
+- Site title and description
+- Navigation menu items
+- Theme (using Minima theme)
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages when changes are pushed to the main branch. The site will be available at `https://ardentheartgames.github.io`.
+
+## Contributing
+
+To update content:
+
+1. Edit the relevant Markdown files
+2. Test locally using `bundle exec jekyll serve`
+3. Commit and push your changes
+4. GitHub Pages will automatically rebuild and deploy
+
+## License
+
+Content on this site is © Ardent Heart Games.
