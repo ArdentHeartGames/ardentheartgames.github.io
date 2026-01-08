@@ -1,0 +1,28 @@
+title: Ardent Heart Games
+description: >-
+  Official website for Ardent Heart Editor - A powerful game editor built on 
+  the Unicorn Game Engine with PixiJS and ThreeJS support.
+baseurl: ""
+url: "https://ardentheartgames.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Social links (optional - can be updated later)
+github_username: ArdentHeartGames
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - features.md
+  - roadmap.md
+  - updates.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
