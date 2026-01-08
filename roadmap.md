@@ -230,7 +230,7 @@ We follow an iterative development approach:
 
 ### Key Milestones
 
-1. **Early Access Launch** - Core 2D editor (Q1 2026 or sooner)
+1. **Early Access Launch** - Core 2D editor (Q1 2026, could be sooner)
 2. **Visual Editors Update** - Animation and scripting tools (Q2-Q3 2026)
 3. **3D Integration** - ThreeJS support (Q4 2026 - Q1 2027)
 4. **AI Features** - Local LLM integration (2027)
