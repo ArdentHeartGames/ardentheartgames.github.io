@@ -1,0 +1,308 @@
+---
+---
+
+// Dark mode color overrides for minima
+$background-color: #0d1117;
+$text-color: #e6edf3;
+$brand-color: #e74c3c;
+$grey-color: #8b949e;
+$grey-color-light: #21262d;
+$grey-color-dark: #c9d1d9;
+
+@import "minima";
+
+// Custom styles for Ardent Heart Games - Dark Mode
+
+// Color palette
+$primary-color: #e74c3c;
+$secondary-color: #58a6ff;
+$accent-color: #3498db;
+$dark-bg: #0d1117;
+$card-bg: #161b22;
+$border-color: #30363d;
+
+// Base dark mode overrides
+body {
+  background-color: $dark-bg;
+  color: $text-color;
+}
+
+// Header styling
+.site-header {
+  background-color: $card-bg;
+  border-bottom: 1px solid $border-color;
+}
+
+.site-title, .site-title:visited {
+  color: $text-color !important;
+}
+
+.site-nav .page-link {
+  color: $text-color;
+  
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+// Hero section
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid $border-color;
+  
+  h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Logo showcase
+.logo-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: $card-bg;
+  border-radius: 8px;
+  border: 1px solid $border-color;
+  
+  .logo-item {
+    text-align: center;
+    
+    img {
+      height: 100px;
+      width: auto;
+      transition: transform 0.2s ease;
+      
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    
+    .logo-label {
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: $text-color;
+      font-weight: 500;
+    }
+  }
+}
+
+// Feature cards
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: $card-bg;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    border-color: $primary-color;
+  }
+  
+  h3 {
+    color: $text-color;
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+  
+  p {
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+}
+
+// Tech badges
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tech-badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background: $card-bg;
+  border: 1px solid $border-color;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: $text-color;
+  font-weight: 500;
+}
+
+// CTA buttons
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  
+  &.btn-primary {
+    background: $primary-color;
+    color: white;
+    
+    &:hover {
+      background: #c0392b;
+      color: white;
+    }
+  }
+  
+  &.btn-secondary {
+    background: transparent;
+    color: $text-color;
+    border: 2px solid $border-color;
+    
+    &:hover {
+      background: $card-bg;
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+  }
+}
+
+// Section styling
+.section {
+  margin: 3rem 0;
+  
+  h2 {
+    color: $text-color;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Navigation improvements
+.site-nav {
+  .page-link {
+    font-weight: 500;
+  }
+}
+
+// Footer improvements
+.site-footer {
+  background: $card-bg;
+  color: #8b949e;
+  border-top: 1px solid $border-color;
+  
+  a {
+    color: $secondary-color;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  
+  .footer-heading {
+    color: $text-color;
+  }
+}
+
+// Content page styling
+.page-content {
+  h1 {
+    color: $text-color;
+  }
+  
+  h2 {
+    color: $text-color;
+    margin-top: 2rem;
+  }
+  
+  h3 {
+    color: #8b949e;
+  }
+  
+  a {
+    color: $secondary-color;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  
+  strong {
+    color: $text-color;
+  }
+  
+  code {
+    background: $card-bg;
+    border: 1px solid $border-color;
+    color: $primary-color;
+  }
+  
+  pre {
+    background: $card-bg;
+    border: 1px solid $border-color;
+  }
+}
+
+// Post content
+.post-content {
+  h2, h3, h4 {
+    color: $text-color;
+  }
+}
+
+// List improvements
+ul {
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Wrapper
+.wrapper {
+  max-width: 900px;
+}
+
+// Responsive adjustments
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .logo-showcase {
+    gap: 1.5rem;
+    
+    .logo-item img {
+      height: 80px;
+    }
+  }
+}
