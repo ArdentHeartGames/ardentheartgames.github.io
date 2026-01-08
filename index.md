@@ -3,52 +3,69 @@ layout: home
 title: Home
 ---
 
-# Welcome to Ardent Heart Games
+<div class="hero">
+  <h1>Ardent Heart Games</h1>
+  <p class="tagline">Build amazing 2D games with a modern, lightweight editor</p>
+</div>
 
-## Ardent Heart Editor
-
-A lightweight, feature-rich game editor built with **Electron** and **Vue.js**, enabling developers to create games using **TypeScript** and **PixiJS** for 2D rendering, with **ThreeJS** support for 3D graphics coming soon.
-
-<div style="display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; margin: 2rem 0;">
-  <div style="text-align: center; flex: 1; max-width: 200px;">
-    <img src="assets/images/editor-splash.png" alt="Ardent Heart Editor" style="height: 120px; width: auto;" />
-    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Ardent Heart Editor</p>
+<div class="logo-showcase" style="display: flex; justify-content: center; align-items: flex-start; gap: 3rem; flex-wrap: wrap; margin: 2rem 0; padding: 1.5rem; background: #161b22; border-radius: 8px; border: 1px solid #30363d;">
+  <div class="logo-item" style="text-align: center;">
+    <img src="assets/images/editor-splash.png" alt="Ardent Heart Editor" style="height: 100px; width: auto;" />
+    <div class="logo-label" style="margin-top: 0.75rem; font-size: 0.875rem; color: #e6edf3; font-weight: 500;">Ardent Heart Editor</div>
   </div>
-  <div style="text-align: center; flex: 1; max-width: 200px;">
-    <img src="assets/images/engine-splash.png" alt="Ardent Heart Engine" style="height: 120px; width: auto;" />
-    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Ardent Heart Engine</p>
+  <div class="logo-item" style="text-align: center;">
+    <img src="assets/images/engine-splash.png" alt="Ardent Heart Engine" style="height: 100px; width: auto;" />
+    <div class="logo-label" style="margin-top: 0.75rem; font-size: 0.875rem; color: #e6edf3; font-weight: 500;">Ardent Heart Engine</div>
   </div>
 </div>
 
-### What is Ardent Heart Editor?
+## What is Ardent Heart Editor?
 
-The Ardent Heart Editor is a streamlined game development tool that provides:
+A lightweight, feature-rich game editor built with **Electron** and **Vue.js**, enabling developers to create games using **TypeScript** and **PixiJS** for 2D rendering.
 
-- **Visual scene editor** for building and arranging game elements
-- **In-editor game runtime view** for instant testing and iteration
-- **Integrated asset management** for sprites, audio, and other resources
-- **TypeScript scripting support** for game logic
-- **Multi-platform builds** - export to Electron, Tauri, or Web
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3>🎨 Visual Scene Editor</h3>
+    <p>Drag-and-drop interface for building and arranging game elements with ease.</p>
+  </div>
+  <div class="feature-card">
+    <h3>▶️ Live Preview</h3>
+    <p>Test your game instantly within the editor—no build step required.</p>
+  </div>
+  <div class="feature-card">
+    <h3>📦 Asset Management</h3>
+    <p>Integrated browser for sprites, audio, and other resources.</p>
+  </div>
+  <div class="feature-card">
+    <h3>💻 TypeScript Support</h3>
+    <p>Write type-safe game logic with full editor support.</p>
+  </div>
+  <div class="feature-card">
+    <h3>🚀 Multi-Platform Export</h3>
+    <p>Build for Web, Electron, or Tauri from a single project.</p>
+  </div>
+  <div class="feature-card">
+    <h3>🔌 Plugin System</h3>
+    <p>Extend functionality via Git repos or Steam Workshop.</p>
+  </div>
+</div>
 
-### Built on Modern Technologies
+## Built With
 
-Our editor leverages:
+<div class="tech-stack">
+  <span class="tech-badge">Electron</span>
+  <span class="tech-badge">Vue.js</span>
+  <span class="tech-badge">TypeScript</span>
+  <span class="tech-badge">PixiJS</span>
+  <span class="tech-badge">Howler.js</span>
+  <span class="tech-badge">Matter.js</span>
+  <span class="tech-badge">ThreeJS (coming soon)</span>
+</div>
 
-- **Electron** - Cross-platform desktop application framework
-- **Vue.js** - Reactive UI framework for the editor interface
-- **PixiJS** - Hardware-accelerated 2D WebGL renderer for games
-- **ThreeJS** (coming soon) - 3D graphics library for immersive experiences
-- **Howler.js** - Wrapped audio engine for sound management
-- **Matter.js** - Wrapped 2D physics engine for realistic interactions
-
-### Get Started
-
-Explore our site to learn more:
-
-- [About the Editor](about/) - Deep dive into the editor's architecture and philosophy
-- [Features](features/) - Discover what the editor can do
-- [Roadmap](roadmap/) - See what's planned for the future
-- [Updates](updates/) - Stay informed about the latest developments
+<div class="cta-buttons">
+  <a href="features/" class="btn btn-primary">Explore Features</a>
+  <a href="about/" class="btn btn-secondary">Learn More</a>
+</div>
 
 ---
 

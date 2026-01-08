@@ -20,7 +20,7 @@ The editor will be exclusively available on Steam starting with the Early Access
 
 ### Prerequisites
 
-- Ruby 3.x
+- Ruby 4.x
 - Bundler
 
 ### Setup

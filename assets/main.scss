@@ -1,0 +1,370 @@
+---
+---
+
+// Dark mode color overrides for minima - MUST BE BEFORE @import
+$background-color: #0d1117;
+$text-color: #e6edf3;
+$brand-color: #e74c3c;
+$grey-color: #8b949e;
+$grey-color-light: #21262d;
+$grey-color-dark: #c9d1d9;
+
+@import "minima";
+
+// Custom styles for Ardent Heart Games - Dark Mode
+
+// Color palette
+$primary-color: #e74c3c;
+$secondary-color: #58a6ff;
+$accent-color: #3498db;
+$dark-bg: #0d1117;
+$card-bg: #161b22;
+$border-color: #30363d;
+
+// Base dark mode overrides
+body {
+  background-color: $dark-bg !important;
+  color: $text-color !important;
+}
+
+// Header styling
+.site-header {
+  background-color: $card-bg !important;
+  border-bottom: 1px solid $border-color !important;
+  min-height: 56px;
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.site-title, .site-title:visited {
+  color: $text-color !important;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  
+  &:hover {
+    color: $primary-color !important;
+    text-decoration: none;
+  }
+}
+
+// Navigation menu styling
+.site-nav {
+  background-color: transparent !important;
+  border: none !important;
+  
+  .page-link {
+    color: $text-color !important;
+    padding: 8px 12px;
+    margin-left: 4px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      color: $primary-color !important;
+      background-color: rgba(231, 76, 60, 0.1);
+      text-decoration: none;
+    }
+  }
+  
+  // Mobile menu
+  @media screen and (max-width: 600px) {
+    background-color: $card-bg !important;
+    border: 1px solid $border-color !important;
+    border-radius: 8px;
+    
+    .page-link {
+      margin-left: 0;
+      padding: 10px 16px;
+      border-bottom: 1px solid $border-color;
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+// Menu button for mobile
+.site-nav .menu-icon > svg path {
+  fill: $text-color;
+}
+
+.site-nav label[for="nav-trigger"] {
+  cursor: pointer;
+}
+
+// Hero section
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid $border-color;
+  
+  h1 {
+    color: white !important;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Logo showcase
+.logo-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: $card-bg;
+  border-radius: 8px;
+  border: 1px solid $border-color;
+  
+  .logo-item {
+    text-align: center;
+    
+    img {
+      height: 100px;
+      width: auto;
+      transition: transform 0.2s ease;
+      
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    
+    .logo-label {
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: $text-color;
+      font-weight: 500;
+    }
+  }
+}
+
+// Feature cards
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: $card-bg;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    border-color: $primary-color;
+  }
+  
+  h3 {
+    color: $text-color !important;
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+  
+  p {
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+}
+
+// Tech badges
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tech-badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background: $card-bg;
+  border: 1px solid $border-color;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: $text-color;
+  font-weight: 500;
+}
+
+// CTA buttons
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  
+  &.btn-primary {
+    background: $primary-color;
+    color: white !important;
+    
+    &:hover {
+      background: #c0392b;
+      color: white !important;
+    }
+  }
+  
+  &.btn-secondary {
+    background: transparent;
+    color: $text-color !important;
+    border: 2px solid $border-color;
+    
+    &:hover {
+      background: $card-bg;
+      border-color: $primary-color;
+      color: $primary-color !important;
+    }
+  }
+}
+
+// Section styling
+.section {
+  margin: 3rem 0;
+  
+  h2 {
+    color: $text-color;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Navigation improvements
+.site-nav {
+  background-color: $card-bg;
+  border: 1px solid $border-color;
+  
+  .page-link {
+    font-weight: 500;
+  }
+}
+
+// Footer improvements
+.site-footer {
+  background: $card-bg !important;
+  color: #8b949e !important;
+  border-top: 1px solid $border-color !important;
+  
+  a {
+    color: $secondary-color !important;
+    
+    &:hover {
+      color: $primary-color !important;
+    }
+  }
+  
+  .footer-heading {
+    color: $text-color !important;
+  }
+  
+  .footer-col-wrapper {
+    color: #8b949e !important;
+  }
+  
+  .social-media-list {
+    li + li {
+      padding-top: 5px;
+    }
+  }
+  
+  .svg-icon {
+    fill: #8b949e;
+  }
+}
+
+// Content page styling
+.page-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $text-color !important;
+  }
+  
+  a {
+    color: $secondary-color;
+    
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  
+  strong {
+    color: $text-color;
+  }
+  
+  code {
+    background: $card-bg;
+    border: 1px solid $border-color;
+    color: $primary-color;
+  }
+  
+  pre {
+    background: $card-bg;
+    border: 1px solid $border-color;
+  }
+}
+
+// Post content
+.post-content {
+  h2, h3, h4 {
+    color: $text-color !important;
+  }
+}
+
+// List improvements
+ul {
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Wrapper
+.wrapper {
+  max-width: 900px;
+}
+
+// Responsive adjustments
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .logo-showcase {
+    gap: 1.5rem;
+    
+    .logo-item img {
+      height: 80px;
+    }
+  }
+}
