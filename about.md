@@ -6,6 +6,8 @@ permalink: /about/
 
 # About Ardent Heart Editor
 
+<img src="assets/images/editor-splash.png" alt="Ardent Heart Editor" style="max-width: 229px; width: 100%; height: auto;" />
+
 ## Overview
 
 The Ardent Heart Editor is a lightweight, feature-rich game development tool designed to make game creation accessible and enjoyable. Built with **Electron** and **Vue.js**, it provides a streamlined workflow for creating games in **TypeScript** and **PixiJS**, with support for deploying to multiple platforms including Electron, Tauri, and Web.

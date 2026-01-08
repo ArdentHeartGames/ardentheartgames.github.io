@@ -6,6 +6,8 @@ permalink: /features/
 
 # Features
 
+<img src="assets/images/engine-splash.png" alt="Ardent Heart Engine" style="max-width: 279px; width: 100%; height: auto;" />
+
 Discover what the Ardent Heart Editor can do for your game development workflow.
 
 ## Core Editor Features

@@ -9,6 +9,17 @@ title: Home
 
 A lightweight, feature-rich game editor built with **Electron** and **Vue.js**, enabling developers to create games using **TypeScript** and **PixiJS** for 2D rendering, with **ThreeJS** support for 3D graphics coming soon.
 
+<div style="display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; margin: 2rem 0;">
+  <div style="text-align: center; flex: 1; max-width: 200px;">
+    <img src="assets/images/editor-splash.png" alt="Ardent Heart Editor" style="height: 120px; width: auto;" />
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Ardent Heart Editor</p>
+  </div>
+  <div style="text-align: center; flex: 1; max-width: 200px;">
+    <img src="assets/images/engine-splash.png" alt="Ardent Heart Engine" style="height: 120px; width: auto;" />
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">Ardent Heart Engine</p>
+  </div>
+</div>
+
 ### What is Ardent Heart Editor?
 
 The Ardent Heart Editor is a streamlined game development tool that provides:
