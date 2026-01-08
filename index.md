@@ -31,10 +31,10 @@ Our editor is powered by:
 
 Explore our site to learn more:
 
-- [About the Editor](about.html) - Deep dive into the editor's architecture and philosophy
-- [Features](features.html) - Discover what the editor can do
-- [Roadmap](roadmap.html) - See what's planned for the future
-- [Updates](updates.html) - Stay informed about the latest developments
+- [About the Editor](about/) - Deep dive into the editor's architecture and philosophy
+- [Features](features/) - Discover what the editor can do
+- [Roadmap](roadmap/) - See what's planned for the future
+- [Updates](updates/) - Stay informed about the latest developments
 
 ---
 

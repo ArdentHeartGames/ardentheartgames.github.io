@@ -173,7 +173,6 @@ This page will be updated regularly with the latest news and progress updates. C
 
 For the most up-to-date information:
 - Visit this Updates page regularly
-- Check our [GitHub repository](https://github.com/ArdentHeartGames)
 - Follow our development progress
 
 ---
