@@ -15,7 +15,7 @@ title: Home
   </div>
   <div class="logo-item" style="text-align: center;">
     <img src="assets/images/engine-splash.png" alt="Ardent Heart Engine" style="height: 100px; width: auto;" />
-    <div class="logo-label" style="margin-top: 0.75rem; font-size: 0.875rem; color: #e6edf3; font-weight: 500;">Ardent Heart Engine</div>
+    <div class="logo-label" style="margin-top: 0.75rem; font-size: 0.875rem; color: #e6edf3; font-weight: 500;">Unicorn Game Engine</div>
   </div>
 </div>
 
