@@ -91,6 +91,16 @@ The Ardent Heart Editor will be exclusively available on **Steam** starting with
 
 **Early Access Launch**: Planned for Q1 2026 (could be sooner)
 
+## Open Source Strategy
+
+Starting with major release 2.x.x, each new major version release will result in the previous major version becoming open-source:
+
+- When 2.x.x is released → version 1.x.x will be open-sourced
+- When 3.x.x is released → version 2.x.x will be open-sourced
+- And so on for future major releases
+
+**Note**: There is currently no established timeline for when version 2.x.x will be released. A timeline will be announced at a later date.
+
 ## Future: AI-Supported Workflow
 
 We're planning AI-assisted development features that will allow developers to:
