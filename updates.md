@@ -4,9 +4,18 @@ title: Updates
 permalink: /updates/
 ---
 
-# Project Updates
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h1 style="color: #e6edf3; margin-bottom: 0.5rem;">Project Updates</h1>
+  <p style="color: #8b949e; font-size: 1.1rem;">Stay informed about the latest developments and releases</p>
+</div>
 
-Stay informed about the latest developments, releases, and news from the Ardent Heart Editor project.
+{% include free-to-play-badge.html %}
+
+<div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.5rem; margin: 2rem 0;">
+  <h2 style="color: #e6edf3; margin-top: 0;">📍 Development Status</h2>
+  <p style="color: #8b949e;">Currently in <strong style="color: #58a6ff;">pre-Early Access development</strong>, finalizing core features and preparing for our Steam Early Access launch. The editor is functional for 2D game development with TypeScript and PixiJS.</p>
+  <p style="color: #8b949e; margin-bottom: 0;"><strong>Current Access:</strong> Invite-only for early adopters</p>
+</div>
 
 ---
 

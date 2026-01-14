@@ -4,9 +4,39 @@ title: Features
 permalink: /features/
 ---
 
-# Features
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h1 style="color: #e6edf3; margin-bottom: 0.5rem;">Features</h1>
+  <p style="color: #8b949e; font-size: 1.1rem;">Discover what the Ardent Heart Editor can do for your game development workflow.</p>
+</div>
 
-Discover what the Ardent Heart Editor can do for your game development workflow.
+{% include free-to-play-badge.html %}
+
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3>🎨 Visual Scene Editor</h3>
+    <p>Drag-and-drop interface for placing and arranging game objects with multi-selection, batch operations, grid and snap tools, and layering system.</p>
+  </div>
+  <div class="feature-card">
+    <h3>▶️ In-Editor Game Runtime</h3>
+    <p>Instant testing with real-time updates. Play your game directly within the editor and see changes immediately without rebuilding.</p>
+  </div>
+  <div class="feature-card">
+    <h3>📦 Asset Management</h3>
+    <p>Centralized asset browser with search, filtering, preview, and support for common image, audio, and data formats.</p>
+  </div>
+  <div class="feature-card">
+    <h3>💻 Script Editor</h3>
+    <p>Full TypeScript support with type checking, syntax highlighting, code completion, error detection, and linting.</p>
+  </div>
+  <div class="feature-card">
+    <h3>🔧 Inspector Panel</h3>
+    <p>Property editing for game objects with real-time updates, custom property types, and component management.</p>
+  </div>
+  <div class="feature-card">
+    <h3>🚀 Multi-Platform Export</h3>
+    <p>Build for Web, Electron, or Tauri from a single project. Deploy anywhere with optimized builds.</p>
+  </div>
+</div>
 
 ## Core Editor Features
 

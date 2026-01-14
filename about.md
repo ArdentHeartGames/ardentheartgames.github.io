@@ -4,13 +4,29 @@ title: About
 permalink: /about/
 ---
 
-# About Ardent Heart Editor
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h1 style="color: #e6edf3; margin-bottom: 0.5rem;">About Ardent Heart Editor</h1>
+  <p style="color: #8b949e; font-size: 1.1rem;">A lightweight, feature-rich game development tool designed to make game creation accessible and enjoyable.</p>
+</div>
 
-## Overview
+{% include free-to-play-badge.html %}
 
-The Ardent Heart Editor is a lightweight, feature-rich game development tool designed to make game creation accessible and enjoyable. Built with **Electron** and **Vue.js**, it provides a streamlined workflow for creating games in **TypeScript** and **PixiJS**, with support for deploying to multiple platforms including Electron, Tauri, and Web.
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3>🎯 Lightweight & Efficient</h3>
+    <p>Fast, responsive interface without unnecessary overhead</p>
+  </div>
+  <div class="feature-card">
+    <h3>⚡ Feature-Rich</h3>
+    <p>Comprehensive toolset for 2D (and future 3D) game development</p>
+  </div>
+  <div class="feature-card">
+    <h3>🔌 Extensible</h3>
+    <p>Plugin architecture with Git repos and Steam Workshop integration</p>
+  </div>
+</div>
 
-### Free for Indie Developers
+## Licensing
 
 The editor is **free to use** for:
 - **Solo developers** - Individual creators working independently
@@ -18,7 +34,7 @@ The editor is **free to use** for:
 
 For larger studios or commercial teams exceeding 10 members, licensing terms will be announced closer to the Early Access launch.
 
-## The Editor
+## Overview
 
 ### Architecture
 
@@ -95,14 +111,12 @@ To use the Ardent Heart Editor, you'll need:
 
 ## Availability
 
-The Ardent Heart Editor will be available as **free-to-play** exclusively on **Steam** starting with the Early Access launch. Before the Early Access release, access will be invite-only to ensure quality and gather focused feedback from early adopters.
+The Ardent Heart Editor will launch as **Early Access** on Steam in Q1 2026 (could be sooner). Before the Early Access release, access is invite-only to ensure quality and gather focused feedback from early adopters.
 
-**Early Access Launch**: Planned for Q1 2026 (could be sooner)
-
-**Pricing Model**:
-- **Free-to-play** for solo developers and indie teams (10 or fewer members)
-- Steam Workshop access for community plugins and extensions
-- Optional premium plugins and DLC available through Steam
+**Distribution**:
+- Available exclusively on Steam
+- Steam Workshop for community plugins and extensions
+- Optional premium plugins and DLC through Steam
 
 ## Open Source Strategy
 

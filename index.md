@@ -23,7 +23,7 @@ title: Home
 
 A lightweight, feature-rich game editor built with **Electron** and **Vue.js**, enabling developers to create games using **TypeScript** and **PixiJS** for 2D rendering.
 
-**Free for indie developers and solo creators** (teams of 10 or fewer). Available as free-to-play on Steam starting Q1 2026.
+{% include free-to-play-badge.html %}
 
 <div class="feature-grid">
   <div class="feature-card">
