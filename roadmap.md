@@ -4,18 +4,18 @@ title: Roadmap
 permalink: /roadmap/
 ---
 
-# Development Roadmap
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h1 style="color: #e6edf3; margin-bottom: 0.5rem;">Development Roadmap</h1>
+  <p style="color: #8b949e; font-size: 1.1rem;">Our high-level roadmap for the Ardent Heart Editor</p>
+</div>
 
-Our high-level roadmap for the Ardent Heart Editor. This roadmap is subject to change based on community feedback and development priorities.
+{% include free-to-play-badge.html %}
 
-## Current Status: Pre-Early Access Development
-
-We are currently in active development, working towards our Early Access launch on Steam. The editor is functional for 2D game development with core features implemented.
-
-**Early Access Launch**: Q1 2026 (could be sooner)
-**Current Access**: Invite-only until Early Access launch
-
----
+<div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.5rem; margin: 2rem 0;">
+  <h2 style="color: #e6edf3; margin-top: 0;">📍 Current Status: Pre-Early Access Development</h2>
+  <p style="color: #8b949e;">We are in active development, working towards our Early Access launch on Steam. The editor is functional for 2D game development with core features implemented.</p>
+  <p style="color: #58a6ff; margin-bottom: 0;"><strong>Current Access:</strong> Invite-only until Early Access launch</p>
+</div>
 
 ## Phase 1: Foundation (Current)
 

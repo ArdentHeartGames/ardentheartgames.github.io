@@ -23,6 +23,8 @@ title: Home
 
 A lightweight, feature-rich game editor built with **Electron** and **Vue.js**, enabling developers to create games using **TypeScript** and **PixiJS** for 2D rendering.
 
+{% include free-to-play-badge.html %}
+
 <div class="feature-grid">
   <div class="feature-card">
     <h3>🎨 Visual Scene Editor</h3>
