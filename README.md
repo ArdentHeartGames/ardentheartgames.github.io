@@ -6,7 +6,7 @@ Official website for Ardent Heart Games - home of the Ardent Heart Editor.
 
 This is a static site built with Jekyll and hosted on GitHub Pages. It provides information about the Ardent Heart Editor, a lightweight, feature-rich game editor built with Electron and Vue.js for creating games in TypeScript and PixiJS (with ThreeJS support coming soon).
 
-The editor will be exclusively available on Steam starting with the Early Access launch in Q1 2026.
+The editor will be available as **free-to-play** exclusively on Steam starting with the Early Access launch in Q1 2026. It is free for solo developers and indie teams (10 or fewer members).
 
 ## Site Structure
 

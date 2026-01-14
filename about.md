@@ -10,6 +10,14 @@ permalink: /about/
 
 The Ardent Heart Editor is a lightweight, feature-rich game development tool designed to make game creation accessible and enjoyable. Built with **Electron** and **Vue.js**, it provides a streamlined workflow for creating games in **TypeScript** and **PixiJS**, with support for deploying to multiple platforms including Electron, Tauri, and Web.
 
+### Free for Indie Developers
+
+The editor is **free to use** for:
+- **Solo developers** - Individual creators working independently
+- **Indie teams** - Development teams with 10 or fewer members
+
+For larger studios or commercial teams exceeding 10 members, licensing terms will be announced closer to the Early Access launch.
+
 ## The Editor
 
 ### Architecture
@@ -87,9 +95,14 @@ To use the Ardent Heart Editor, you'll need:
 
 ## Availability
 
-The Ardent Heart Editor will be exclusively available on **Steam** starting with the Early Access launch. Before the Early Access release, access will be invite-only to ensure quality and gather focused feedback from early adopters.
+The Ardent Heart Editor will be available as **free-to-play** exclusively on **Steam** starting with the Early Access launch. Before the Early Access release, access will be invite-only to ensure quality and gather focused feedback from early adopters.
 
 **Early Access Launch**: Planned for Q1 2026 (could be sooner)
+
+**Pricing Model**:
+- **Free-to-play** for solo developers and indie teams (10 or fewer members)
+- Steam Workshop access for community plugins and extensions
+- Optional premium plugins and DLC available through Steam
 
 ## Open Source Strategy
 
